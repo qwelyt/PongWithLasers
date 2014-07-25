@@ -7,6 +7,7 @@ A hit with a laser gives one(1) point.
 If the ball touches the side, you get 10 points!
 
 Controls:
+
 	p1 (left part of screen)
 		Arrow up:	Go up.
 		Arrow down:	Go down.
@@ -23,12 +24,12 @@ Controls:
 Compilation instructions:
 You will need SDL1.2 to compile it.
 
-% g++ -c *.cpp && g++ -o PongWithLasers *.o -lSDL -lSDL_ttf -lSDL_image
+	% g++ -c *.cpp && g++ -o PongWithLasers *.o -lSDL -lSDL_ttf -lSDL_image
 
 Or if you want to type it all out:
 
-% g++ -c Image.cpp Label.cpp main.cpp Object.cpp Rectangle.cpp Screen.cpp Timer.cpp
-% g++ -o PongWithLasers Image.o Label.o main.o Object.o Rectangle.o Screen.o Timer.o -lSDL -lSDL_ttf -lSDL_image
+	% g++ -c Image.cpp Label.cpp main.cpp Object.cpp Rectangle.cpp Screen.cpp Timer.cpp
+	% g++ -o PongWithLasers Image.o Label.o main.o Object.o Rectangle.o Screen.o Timer.o -lSDL -lSDL_ttf -lSDL_image
 
 
 Have fun!
