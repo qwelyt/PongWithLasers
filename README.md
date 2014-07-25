@@ -33,3 +33,5 @@ Or if you want to type it all out:
 
 
 Have fun!
+
+(Also, the code is bad as this is my first go at c++)
